@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  Finder Zen
+
+  Created by Vince14Genius on 4/14/16.
+  Copyright © 2016 Vince14Genius. All rights reserved.
+*/
+
+"Casual" = "休闲";
+"Normal" = "普通";
+"Deadly" = "炼狱";
+
+"RecordText" = "个人纪录：";
+"ModeText" = "游戏模式：";
+
+"StartDev" = "想要更多游戏？请访问 github.com/Vince14Genius ！";
+"GameMode" = "游戏模式：";
+"FinalScore" = "最终得分：";
+"YourRecord" = "个人纪录：";
+
+"ConfirmReset1" = "确定操作";
+"ConfirmReset2" = "重置所有个人纪录？";
+"Reset" = "重置";
+"Cancel" = "取消";
+"CBTurnOff" = "关闭色盲模式？";
+"CBTurnOn" = "开启色盲模式？";
+"Yes" = "确定";
+"No" = "取消";
+
+"GamePaused" = "游戏已暂停";
+"ReturnToGame" = "返回游戏";
+"MainMenu" = "主菜单";
+"MuteSFX" = "开启／关闭音效";
+"MuteMusic" = "开启／关闭音乐";
+"CBMode" = "开启／关闭色盲模式";
+
+"CtoC" = "点击来继续。";
+"CtoCB" = "游戏教学：色盲模式";
+"TheTutorial" = "游戏教学：普通模式";
+"CtoPN" = " ";
+
+"2_1" = "这家伙是Finder，你要保护他。";
+
+"3_1" = "带有（O）图案的泡泡在碰到Finder时";
+"3_2" = "蓝色泡泡会在碰到Finder时";
+"3_3" = "让你获得1分。";
+"3_4" = "不要去点击它。";
+
+"5_1" = "带有（X）图案的泡泡是致命的";
+"5_2" = "红色泡泡是致命的";
+"5_3" = "并且会攻击Finder。";
+"5_4" = "点击红色泡泡来消除它。";
+
+"7_1" = "带有（！）图案的泡泡会在";
+"7_2" = "黄色泡泡会在";
+"7_3" = "被点击时攻击Finder。";
+"7_4" = "不要去点击它。";
+
+"9_1" = "带有五角星图案的泡泡有超凡的力量";
+"9_2" = "绿色泡泡有超凡的力量，";
+"9_3" = "能够消除所有致命的东西";
+"9_4" = "并让你获得10分。";
+
+"10_1" = "点击五角星图案的泡泡";
+"10_2" = "点击绿色泡泡";
+"10_3" = "来使用它的能力吧！";
+
+"12_1" = "现在试着保护Finder";
+"12_2" = "并让他获得30分吧！";
+
+"Default_1" = "恭喜你完成了游戏教学！";
+"Default_2" = "你可以通过点击Finder Zen的标志";
+"Default_3" = "来重新访问游戏教学。";

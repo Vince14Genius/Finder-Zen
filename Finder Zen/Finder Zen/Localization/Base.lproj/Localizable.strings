@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  Finder Zen
+
+  Created by Vince14Genius on 4/14/16.
+  Copyright © 2016 Vince14Genius. All rights reserved.
+*/
+
+"Casual" = "Casual";
+"Normal" = "Normal";
+"Deadly" = "Deadly";
+
+"RecordText" = "Record: ";
+"ModeText" = "Mode: ";
+
+"StartDev" = "Visit github.com/Vince14Genius for more. ";
+"GameMode" = "Game Mode: ";
+"FinalScore" = "Final Score: ";
+"YourRecord" = "Your Record: ";
+
+"ConfirmReset1" = "Are you sure you want to";
+"ConfirmReset2" = "reset all records to 0?";
+"Reset" = "Reset";
+"Cancel" = "Cancel";
+"CBTurnOff" = "turn off colorblind mode?";
+"CBTurnOn" = "turn on colorblind mode?";
+"Yes" = "Yes";
+"No" = "No";
+
+"GamePaused" = "Game Paused";
+"ReturnToGame" = "Return to Game";
+"MainMenu" = "Main Menu";
+"MuteSFX" = "Mute Sound Effects";
+"MuteMusic" = "Mute Music";
+"CBMode" = "Colorblind-Friendly Mode";
+
+"CtoC" = "Click to continue. ";
+"CtoCB" = "Click here to play the tutorial in colorblind mode. ";
+"TheTutorial" = "The Tutorial";
+"CtoPN" = "Click anywhere else to play the tutorial normally. ";
+
+"2_1" = "This is Finder, you need to protect him. ";
+
+"3_1" = "The (O) bubble gives you 1 point";
+"3_2" = "The blue bubble gives you 1 point";
+"3_3" = "when it reaches Finder. ";
+"3_4" = "Let it pass through. ";
+
+"5_1" = "The (X) bubble is lethal";
+"5_2" = "The red bubble is lethal";
+"5_3" = "and it targets Finder. ";
+"5_4" = "Click on it to destroy it. ";
+
+"7_1" = "The (!) bubble damages Finder";
+"7_2" = "The yellow bubble damages Finder";
+"7_3" = "when you click on it. ";
+"7_4" = "Let it pass through. ";
+
+"9_1" = "The star bubble temporarily clears off";
+"9_2" = "The green bubble temporarily clears off";
+"9_3" = "all harmful stuff";
+"9_4" = "and grants you 10 points. ";
+
+"10_1" = "Click on the star bubble";
+"10_2" = "Click on the green bubble";
+"10_3" = "to activate it. ";
+
+"12_1" = "Now try protecting Finder";
+"12_2" = "until he earns 30 points. ";
+
+"Default_1" = "You have completed the tutorial!";
+"Default_2" = "You can re-visit the tutorial ";
+"Default_3" = "by clicking on the Finder Zen logo. ";

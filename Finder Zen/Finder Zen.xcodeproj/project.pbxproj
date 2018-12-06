@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6504C2071B90079E0014490D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504C2061B90079E0014490D /* AppDelegate.swift */; };
+		6504C2091B90079E0014490D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504C2081B90079E0014490D /* GameScene.swift */; };
+		6504C20B1B90079E0014490D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C20A1B90079E0014490D /* GameScene.sks */; };
+		6504C20D1B90079E0014490D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6504C20C1B90079E0014490D /* Assets.xcassets */; };
+		6504C2101B90079E0014490D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6504C20E1B90079E0014490D /* MainMenu.xib */; };
+		6504C21D1B9008990014490D /* BluePoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2191B9008990014490D /* BluePoof.sks */; };
+		6504C21E1B9008990014490D /* GreenPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21A1B9008990014490D /* GreenPoof.sks */; };
+		6504C21F1B9008990014490D /* RedPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21B1B9008990014490D /* RedPoof.sks */; };
+		6504C2201B9008990014490D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21C1B9008990014490D /* spark.png */; };
+		6504C2261B9008A50014490D /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2211B9008A50014490D /* bgm.mp3 */; };
+		6504C2271B9008A50014490D /* blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2221B9008A50014490D /* blast.mp3 */; };
+		6504C2281B9008A50014490D /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2231B9008A50014490D /* lose.mp3 */; };
+		6504C2291B9008A50014490D /* point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2241B9008A50014490D /* point.mp3 */; };
+		6504C22A1B9008A50014490D /* power.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2251B9008A50014490D /* power.mp3 */; };
+		6512CFF11BAF9A6600FAF8C4 /* YellowPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6512CFF01BAF9A6600FAF8C4 /* YellowPoof.sks */; };
+		651AD2FB1C60814A00465716 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651AD2FA1C60814A00465716 /* title.mp3 */; };
+		653DC4481CBCF3180060F7A5 /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DC4471CBCF3180060F7A5 /* GameMenu.swift */; };
+		656326151C7C42C20028F59A /* continue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 656326141C7C42C20028F59A /* continue.mp3 */; };
+		656326171C7C435B0028F59A /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 656326161C7C435B0028F59A /* win.mp3 */; };
+		65A7B5CC1CD9B5FB00D432BC /* myriad-set-pro_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A7B5CB1CD9B5F700D432BC /* myriad-set-pro_thin.ttf */; };
+		65AA09E91EEFF5300072351D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA09E81EEFF5300072351D /* AppDelegate.swift */; };
+		65AA09F11EEFF5310072351D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA09F01EEFF5310072351D /* GameViewController.swift */; };
+		65AA09F41EEFF5310072351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA09F21EEFF5310072351D /* Main.storyboard */; };
+		65AA09F61EEFF5310072351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AA09F51EEFF5310072351D /* Assets.xcassets */; };
+		65AA09F91EEFF5310072351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AA09F71EEFF5310072351D /* LaunchScreen.storyboard */; };
+		65AA0A041EEFF5320072351D /* Finder_Zen_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA0A031EEFF5320072351D /* Finder_Zen_iOSTests.swift */; };
+		65AA0A0F1EEFF5320072351D /* Finder_Zen_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA0A0E1EEFF5320072351D /* Finder_Zen_iOSUITests.swift */; };
+		65AA0A1B1EEFF5570072351D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6504C2081B90079E0014490D /* GameScene.swift */; };
+		65AA0A1C1EEFF5BA0072351D /* GameTutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F73A3F1C7AB1320032DFAB /* GameTutorialScene.swift */; };
+		65AA0A1D1EEFF5BC0072351D /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFB4DE1BC9651300A3A09A /* GamePlayScene.swift */; };
+		65AA0A1E1EEFF5BF0072351D /* GameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DC4471CBCF3180060F7A5 /* GameMenu.swift */; };
+		65AA0A1F1EEFF5C30072351D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C20A1B90079E0014490D /* GameScene.sks */; };
+		65AA0A201EEFF5C80072351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6504C20C1B90079E0014490D /* Assets.xcassets */; };
+		65AA0A211EEFF5CD0072351D /* myriad-set-pro_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A7B5CB1CD9B5F700D432BC /* myriad-set-pro_thin.ttf */; };
+		65AA0A221EEFF5D70072351D /* BluePoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2191B9008990014490D /* BluePoof.sks */; };
+		65AA0A231EEFF5D70072351D /* GreenPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21A1B9008990014490D /* GreenPoof.sks */; };
+		65AA0A241EEFF5D70072351D /* RedPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21B1B9008990014490D /* RedPoof.sks */; };
+		65AA0A251EEFF5D70072351D /* YellowPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6512CFF01BAF9A6600FAF8C4 /* YellowPoof.sks */; };
+		65AA0A261EEFF5D70072351D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6504C21C1B9008990014490D /* spark.png */; };
+		65AA0A271EEFF5D70072351D /* TitleBlue.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C525251BDA354600786404 /* TitleBlue.sks */; };
+		65AA0A281EEFF5D70072351D /* TitleGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D4083E1BDF2F5F004C7D1F /* TitleGreen.sks */; };
+		65AA0A291EEFF5D70072351D /* TitleRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D4083F1BDF2F5F004C7D1F /* TitleRed.sks */; };
+		65AA0A2A1EEFF5D70072351D /* TitleYellow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D408401BDF2F5F004C7D1F /* TitleYellow.sks */; };
+		65AA0A2B1EEFF5E10072351D /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651AD2FA1C60814A00465716 /* title.mp3 */; };
+		65AA0A2C1EEFF5E10072351D /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2211B9008A50014490D /* bgm.mp3 */; };
+		65AA0A2D1EEFF5E10072351D /* blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2221B9008A50014490D /* blast.mp3 */; };
+		65AA0A2E1EEFF5E10072351D /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2231B9008A50014490D /* lose.mp3 */; };
+		65AA0A2F1EEFF5E10072351D /* point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2241B9008A50014490D /* point.mp3 */; };
+		65AA0A301EEFF5E10072351D /* power.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6504C2251B9008A50014490D /* power.mp3 */; };
+		65AA0A311EEFF5E10072351D /* continue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 656326141C7C42C20028F59A /* continue.mp3 */; };
+		65AA0A321EEFF5E10072351D /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 656326161C7C435B0028F59A /* win.mp3 */; };
+		65AA0A331EEFF5E60072351D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B829B61CBF90460008D41F /* Localizable.strings */; };
+		65B829B41CBF90460008D41F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B829B61CBF90460008D41F /* Localizable.strings */; };
+		65C525261BDA354600786404 /* TitleBlue.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C525251BDA354600786404 /* TitleBlue.sks */; };
+		65D408411BDF2F5F004C7D1F /* TitleGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D4083E1BDF2F5F004C7D1F /* TitleGreen.sks */; };
+		65D408421BDF2F5F004C7D1F /* TitleRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D4083F1BDF2F5F004C7D1F /* TitleRed.sks */; };
+		65D408431BDF2F5F004C7D1F /* TitleYellow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D408401BDF2F5F004C7D1F /* TitleYellow.sks */; };
+		65DFB4DF1BC9651300A3A09A /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFB4DE1BC9651300A3A09A /* GamePlayScene.swift */; };
+		65F73A401C7AB1320032DFAB /* GameTutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F73A3F1C7AB1320032DFAB /* GameTutorialScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65AA0A001EEFF5320072351D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6504C1FB1B90079E0014490D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AA09E51EEFF5300072351D;
+			remoteInfo = "Finder Zen iOS";
+		};
+		65AA0A0B1EEFF5320072351D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6504C1FB1B90079E0014490D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AA09E51EEFF5300072351D;
+			remoteInfo = "Finder Zen iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EB9B6E31F4AA8C300B1548F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6504C2031B90079E0014490D /* Finder Zen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finder Zen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6504C2061B90079E0014490D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6504C2081B90079E0014490D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6504C20A1B90079E0014490D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6504C20C1B90079E0014490D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6504C20F1B90079E0014490D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6504C2111B90079E0014490D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6504C2191B9008990014490D /* BluePoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BluePoof.sks; sourceTree = "<group>"; };
+		6504C21A1B9008990014490D /* GreenPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GreenPoof.sks; sourceTree = "<group>"; };
+		6504C21B1B9008990014490D /* RedPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedPoof.sks; sourceTree = "<group>"; };
+		6504C21C1B9008990014490D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		6504C2211B9008A50014490D /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		6504C2221B9008A50014490D /* blast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blast.mp3; sourceTree = "<group>"; };
+		6504C2231B9008A50014490D /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		6504C2241B9008A50014490D /* point.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = point.mp3; sourceTree = "<group>"; };
+		6504C2251B9008A50014490D /* power.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = power.mp3; sourceTree = "<group>"; };
+		6512CFF01BAF9A6600FAF8C4 /* YellowPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = YellowPoof.sks; sourceTree = "<group>"; };
+		651AD2FA1C60814A00465716 /* title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = title.mp3; sourceTree = "<group>"; };
+		653DC4471CBCF3180060F7A5 /* GameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenu.swift; sourceTree = "<group>"; };
+		656326141C7C42C20028F59A /* continue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = continue.mp3; sourceTree = "<group>"; };
+		656326161C7C435B0028F59A /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		65A7B5CB1CD9B5F700D432BC /* myriad-set-pro_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myriad-set-pro_thin.ttf"; sourceTree = "<group>"; };
+		65AA09E61EEFF5300072351D /* Finder Zen iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finder Zen iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AA09E81EEFF5300072351D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AA09F01EEFF5310072351D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		65AA09F31EEFF5310072351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AA09F51EEFF5310072351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AA09F81EEFF5310072351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AA09FA1EEFF5310072351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AA09FF1EEFF5310072351D /* Finder Zen iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finder Zen iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AA0A031EEFF5320072351D /* Finder_Zen_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finder_Zen_iOSTests.swift; sourceTree = "<group>"; };
+		65AA0A051EEFF5320072351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AA0A0A1EEFF5320072351D /* Finder Zen iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finder Zen iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AA0A0E1EEFF5320072351D /* Finder_Zen_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finder_Zen_iOSUITests.swift; sourceTree = "<group>"; };
+		65AA0A101EEFF5320072351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B829A71CBF8BB70008D41F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		65B829B51CBF90460008D41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		65B829B71CBFD1BB0008D41F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		65C525251BDA354600786404 /* TitleBlue.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleBlue.sks; sourceTree = "<group>"; };
+		65D4083E1BDF2F5F004C7D1F /* TitleGreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleGreen.sks; sourceTree = "<group>"; };
+		65D4083F1BDF2F5F004C7D1F /* TitleRed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleRed.sks; sourceTree = "<group>"; };
+		65D408401BDF2F5F004C7D1F /* TitleYellow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleYellow.sks; sourceTree = "<group>"; };
+		65DFB4DE1BC9651300A3A09A /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+		65F73A3F1C7AB1320032DFAB /* GameTutorialScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTutorialScene.swift; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6504C2001B90079E0014490D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09E31EEFF5300072351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09FC1EEFF5310072351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA0A071EEFF5320072351D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6504C1FA1B90079E0014490D = {
+			isa = PBXGroup;
+			children = (
+				6504C2051B90079E0014490D /* Finder Zen */,
+				65AA09E71EEFF5300072351D /* Finder Zen iOS */,
+				65AA0A021EEFF5320072351D /* Finder Zen iOSTests */,
+				65AA0A0D1EEFF5320072351D /* Finder Zen iOSUITests */,
+				6504C2041B90079E0014490D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6504C2041B90079E0014490D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6504C2031B90079E0014490D /* Finder Zen.app */,
+				65AA09E61EEFF5300072351D /* Finder Zen iOS.app */,
+				65AA09FF1EEFF5310072351D /* Finder Zen iOSTests.xctest */,
+				65AA0A0A1EEFF5320072351D /* Finder Zen iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6504C2051B90079E0014490D /* Finder Zen */ = {
+			isa = PBXGroup;
+			children = (
+				6504C2061B90079E0014490D /* AppDelegate.swift */,
+				6504C2081B90079E0014490D /* GameScene.swift */,
+				653DC4471CBCF3180060F7A5 /* GameMenu.swift */,
+				65F73A3F1C7AB1320032DFAB /* GameTutorialScene.swift */,
+				65DFB4DE1BC9651300A3A09A /* GamePlayScene.swift */,
+				6504C20A1B90079E0014490D /* GameScene.sks */,
+				6504C20C1B90079E0014490D /* Assets.xcassets */,
+				65A7B5CA1CD9B5DC00D432BC /* Fonts */,
+				6504C2171B9008660014490D /* Particles */,
+				6504C2181B9008660014490D /* Sounds */,
+				65B829AA1CBF8F180008D41F /* Localization */,
+				6504C20E1B90079E0014490D /* MainMenu.xib */,
+				6504C2111B90079E0014490D /* Info.plist */,
+			);
+			path = "Finder Zen";
+			sourceTree = "<group>";
+		};
+		6504C2171B9008660014490D /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				6504C2191B9008990014490D /* BluePoof.sks */,
+				6504C21A1B9008990014490D /* GreenPoof.sks */,
+				6504C21B1B9008990014490D /* RedPoof.sks */,
+				6512CFF01BAF9A6600FAF8C4 /* YellowPoof.sks */,
+				6504C21C1B9008990014490D /* spark.png */,
+				65C525251BDA354600786404 /* TitleBlue.sks */,
+				65D4083E1BDF2F5F004C7D1F /* TitleGreen.sks */,
+				65D4083F1BDF2F5F004C7D1F /* TitleRed.sks */,
+				65D408401BDF2F5F004C7D1F /* TitleYellow.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		6504C2181B9008660014490D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				651AD2FA1C60814A00465716 /* title.mp3 */,
+				6504C2211B9008A50014490D /* bgm.mp3 */,
+				6504C2221B9008A50014490D /* blast.mp3 */,
+				6504C2231B9008A50014490D /* lose.mp3 */,
+				6504C2241B9008A50014490D /* point.mp3 */,
+				6504C2251B9008A50014490D /* power.mp3 */,
+				656326141C7C42C20028F59A /* continue.mp3 */,
+				656326161C7C435B0028F59A /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		65A7B5CA1CD9B5DC00D432BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				65A7B5CB1CD9B5F700D432BC /* myriad-set-pro_thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		65AA09E71EEFF5300072351D /* Finder Zen iOS */ = {
+			isa = PBXGroup;
+			children = (
+				65AA09E81EEFF5300072351D /* AppDelegate.swift */,
+				65AA09F01EEFF5310072351D /* GameViewController.swift */,
+				65AA09F21EEFF5310072351D /* Main.storyboard */,
+				65AA09F51EEFF5310072351D /* Assets.xcassets */,
+				65AA09F71EEFF5310072351D /* LaunchScreen.storyboard */,
+				65AA09FA1EEFF5310072351D /* Info.plist */,
+			);
+			path = "Finder Zen iOS";
+			sourceTree = "<group>";
+		};
+		65AA0A021EEFF5320072351D /* Finder Zen iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				65AA0A031EEFF5320072351D /* Finder_Zen_iOSTests.swift */,
+				65AA0A051EEFF5320072351D /* Info.plist */,
+			);
+			path = "Finder Zen iOSTests";
+			sourceTree = "<group>";
+		};
+		65AA0A0D1EEFF5320072351D /* Finder Zen iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65AA0A0E1EEFF5320072351D /* Finder_Zen_iOSUITests.swift */,
+				65AA0A101EEFF5320072351D /* Info.plist */,
+			);
+			path = "Finder Zen iOSUITests";
+			sourceTree = "<group>";
+		};
+		65B829AA1CBF8F180008D41F /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				65B829B61CBF90460008D41F /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6504C2021B90079E0014490D /* Finder Zen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6504C2141B90079E0014490D /* Build configuration list for PBXNativeTarget "Finder Zen" */;
+			buildPhases = (
+				6504C1FF1B90079E0014490D /* Sources */,
+				6504C2001B90079E0014490D /* Frameworks */,
+				6504C2011B90079E0014490D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finder Zen";
+			productName = "Finder Zen";
+			productReference = 6504C2031B90079E0014490D /* Finder Zen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65AA09E51EEFF5300072351D /* Finder Zen iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AA0A111EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOS" */;
+			buildPhases = (
+				65AA09E21EEFF5300072351D /* Sources */,
+				65AA09E31EEFF5300072351D /* Frameworks */,
+				65AA09E41EEFF5300072351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finder Zen iOS";
+			productName = "Finder Zen iOS";
+			productReference = 65AA09E61EEFF5300072351D /* Finder Zen iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65AA09FE1EEFF5310072351D /* Finder Zen iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AA0A141EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOSTests" */;
+			buildPhases = (
+				65AA09FB1EEFF5310072351D /* Sources */,
+				65AA09FC1EEFF5310072351D /* Frameworks */,
+				65AA09FD1EEFF5310072351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AA0A011EEFF5320072351D /* PBXTargetDependency */,
+			);
+			name = "Finder Zen iOSTests";
+			productName = "Finder Zen iOSTests";
+			productReference = 65AA09FF1EEFF5310072351D /* Finder Zen iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65AA0A091EEFF5320072351D /* Finder Zen iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AA0A171EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOSUITests" */;
+			buildPhases = (
+				65AA0A061EEFF5320072351D /* Sources */,
+				65AA0A071EEFF5320072351D /* Frameworks */,
+				65AA0A081EEFF5320072351D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65AA0A0C1EEFF5320072351D /* PBXTargetDependency */,
+			);
+			name = "Finder Zen iOSUITests";
+			productName = "Finder Zen iOSUITests";
+			productReference = 65AA0A0A1EEFF5320072351D /* Finder Zen iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6504C1FB1B90079E0014490D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Vince14Genius;
+				TargetAttributes = {
+					6504C2021B90079E0014490D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P93MY8PTXL;
+						LastSwiftMigration = 0900;
+					};
+					65AA09E51EEFF5300072351D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P93MY8PTXL;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					65AA09FE1EEFF5310072351D = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65AA09E51EEFF5300072351D;
+					};
+					65AA0A091EEFF5320072351D = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65AA09E51EEFF5300072351D;
+					};
+				};
+			};
+			buildConfigurationList = 6504C1FE1B90079E0014490D /* Build configuration list for PBXProject "Finder Zen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+			);
+			mainGroup = 6504C1FA1B90079E0014490D;
+			productRefGroup = 6504C2041B90079E0014490D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6504C2021B90079E0014490D /* Finder Zen */,
+				65AA09E51EEFF5300072351D /* Finder Zen iOS */,
+				65AA09FE1EEFF5310072351D /* Finder Zen iOSTests */,
+				65AA0A091EEFF5320072351D /* Finder Zen iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6504C2011B90079E0014490D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6504C20D1B90079E0014490D /* Assets.xcassets in Resources */,
+				6504C2281B9008A50014490D /* lose.mp3 in Resources */,
+				65D408431BDF2F5F004C7D1F /* TitleYellow.sks in Resources */,
+				651AD2FB1C60814A00465716 /* title.mp3 in Resources */,
+				6504C2291B9008A50014490D /* point.mp3 in Resources */,
+				6504C21F1B9008990014490D /* RedPoof.sks in Resources */,
+				656326151C7C42C20028F59A /* continue.mp3 in Resources */,
+				65C525261BDA354600786404 /* TitleBlue.sks in Resources */,
+				656326171C7C435B0028F59A /* win.mp3 in Resources */,
+				6512CFF11BAF9A6600FAF8C4 /* YellowPoof.sks in Resources */,
+				6504C2271B9008A50014490D /* blast.mp3 in Resources */,
+				6504C20B1B90079E0014490D /* GameScene.sks in Resources */,
+				65D408421BDF2F5F004C7D1F /* TitleRed.sks in Resources */,
+				6504C2261B9008A50014490D /* bgm.mp3 in Resources */,
+				65A7B5CC1CD9B5FB00D432BC /* myriad-set-pro_thin.ttf in Resources */,
+				6504C2201B9008990014490D /* spark.png in Resources */,
+				6504C22A1B9008A50014490D /* power.mp3 in Resources */,
+				65B829B41CBF90460008D41F /* Localizable.strings in Resources */,
+				6504C2101B90079E0014490D /* MainMenu.xib in Resources */,
+				65D408411BDF2F5F004C7D1F /* TitleGreen.sks in Resources */,
+				6504C21D1B9008990014490D /* BluePoof.sks in Resources */,
+				6504C21E1B9008990014490D /* GreenPoof.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09E41EEFF5300072351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA0A261EEFF5D70072351D /* spark.png in Resources */,
+				65AA0A1F1EEFF5C30072351D /* GameScene.sks in Resources */,
+				65AA0A251EEFF5D70072351D /* YellowPoof.sks in Resources */,
+				65AA0A311EEFF5E10072351D /* continue.mp3 in Resources */,
+				65AA0A231EEFF5D70072351D /* GreenPoof.sks in Resources */,
+				65AA09F41EEFF5310072351D /* Main.storyboard in Resources */,
+				65AA0A221EEFF5D70072351D /* BluePoof.sks in Resources */,
+				65AA0A291EEFF5D70072351D /* TitleRed.sks in Resources */,
+				65AA0A271EEFF5D70072351D /* TitleBlue.sks in Resources */,
+				65AA0A2A1EEFF5D70072351D /* TitleYellow.sks in Resources */,
+				65AA0A2B1EEFF5E10072351D /* title.mp3 in Resources */,
+				65AA0A241EEFF5D70072351D /* RedPoof.sks in Resources */,
+				65AA0A2D1EEFF5E10072351D /* blast.mp3 in Resources */,
+				65AA0A331EEFF5E60072351D /* Localizable.strings in Resources */,
+				65AA0A281EEFF5D70072351D /* TitleGreen.sks in Resources */,
+				65AA0A211EEFF5CD0072351D /* myriad-set-pro_thin.ttf in Resources */,
+				65AA09F61EEFF5310072351D /* Assets.xcassets in Resources */,
+				65AA09F91EEFF5310072351D /* LaunchScreen.storyboard in Resources */,
+				65AA0A321EEFF5E10072351D /* win.mp3 in Resources */,
+				65AA0A201EEFF5C80072351D /* Assets.xcassets in Resources */,
+				65AA0A2F1EEFF5E10072351D /* point.mp3 in Resources */,
+				65AA0A2E1EEFF5E10072351D /* lose.mp3 in Resources */,
+				65AA0A2C1EEFF5E10072351D /* bgm.mp3 in Resources */,
+				65AA0A301EEFF5E10072351D /* power.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09FD1EEFF5310072351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA0A081EEFF5320072351D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6504C1FF1B90079E0014490D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6504C2091B90079E0014490D /* GameScene.swift in Sources */,
+				653DC4481CBCF3180060F7A5 /* GameMenu.swift in Sources */,
+				6504C2071B90079E0014490D /* AppDelegate.swift in Sources */,
+				65F73A401C7AB1320032DFAB /* GameTutorialScene.swift in Sources */,
+				65DFB4DF1BC9651300A3A09A /* GamePlayScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09E21EEFF5300072351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA0A1B1EEFF5570072351D /* GameScene.swift in Sources */,
+				65AA09F11EEFF5310072351D /* GameViewController.swift in Sources */,
+				65AA0A1C1EEFF5BA0072351D /* GameTutorialScene.swift in Sources */,
+				65AA09E91EEFF5300072351D /* AppDelegate.swift in Sources */,
+				65AA0A1E1EEFF5BF0072351D /* GameMenu.swift in Sources */,
+				65AA0A1D1EEFF5BC0072351D /* GamePlayScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA09FB1EEFF5310072351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA0A041EEFF5320072351D /* Finder_Zen_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65AA0A061EEFF5320072351D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA0A0F1EEFF5320072351D /* Finder_Zen_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65AA0A011EEFF5320072351D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AA09E51EEFF5300072351D /* Finder Zen iOS */;
+			targetProxy = 65AA0A001EEFF5320072351D /* PBXContainerItemProxy */;
+		};
+		65AA0A0C1EEFF5320072351D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65AA09E51EEFF5300072351D /* Finder Zen iOS */;
+			targetProxy = 65AA0A0B1EEFF5320072351D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6504C20E1B90079E0014490D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6504C20F1B90079E0014490D /* Base */,
+				65B829A71CBF8BB70008D41F /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		65AA09F21EEFF5310072351D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AA09F31EEFF5310072351D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65AA09F71EEFF5310072351D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AA09F81EEFF5310072351D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65B829B61CBF90460008D41F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B829B51CBF90460008D41F /* Base */,
+				65B829B71CBFD1BB0008D41F /* zh-Hans */,
+				4EB9B6E31F4AA8C300B1548F /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6504C2121B90079E0014490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6504C2131B90079E0014490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6504C2151B90079E0014490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P93MY8PTXL;
+				INFOPLIST_FILE = "Finder Zen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vince14Genius.Finder-Zen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6504C2161B90079E0014490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Finder Zen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vince14Genius.Finder-Zen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		65AA0A121EEFF5330072351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P93MY8PTXL;
+				INFOPLIST_FILE = "Finder Zen iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AA0A131EEFF5330072351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P93MY8PTXL;
+				INFOPLIST_FILE = "Finder Zen iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AA0A151EEFF5330072351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Finder Zen iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder Zen iOS.app/Finder Zen iOS";
+			};
+			name = Debug;
+		};
+		65AA0A161EEFF5330072351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Finder Zen iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder Zen iOS.app/Finder Zen iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AA0A181EEFF5330072351D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Finder Zen iOSUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Finder Zen iOS";
+			};
+			name = Debug;
+		};
+		65AA0A191EEFF5330072351D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Finder Zen iOSUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StartDev.Finder-Zen-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Finder Zen iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6504C1FE1B90079E0014490D /* Build configuration list for PBXProject "Finder Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6504C2121B90079E0014490D /* Debug */,
+				6504C2131B90079E0014490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6504C2141B90079E0014490D /* Build configuration list for PBXNativeTarget "Finder Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6504C2151B90079E0014490D /* Debug */,
+				6504C2161B90079E0014490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AA0A111EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AA0A121EEFF5330072351D /* Debug */,
+				65AA0A131EEFF5330072351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AA0A141EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AA0A151EEFF5330072351D /* Debug */,
+				65AA0A161EEFF5330072351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AA0A171EEFF5330072351D /* Build configuration list for PBXNativeTarget "Finder Zen iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AA0A181EEFF5330072351D /* Debug */,
+				65AA0A191EEFF5330072351D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6504C1FB1B90079E0014490D /* Project object */;
+}
