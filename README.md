@@ -11,6 +11,6 @@ Source: "Finder Zen/"
 
 This project is not commercially used. 
 
-"Finder" is a trademark of Apple Inc., all other visual artworks used in this game are original. 
+"Finder" is a trademark of Apple Inc., the Finder icon is Apple's intellectual property, and all other visual artworks used in this game are original. 
 
 All background music are from Apple's past ads. 
