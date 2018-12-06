@@ -1,4 +1,5 @@
 # Finder-Zen
+
 An open-source macOS game made with SpriteKit and Swift
 
 ## Downloading
@@ -8,6 +9,10 @@ Executable (current): "Finder Zen.app"
 Executable (old): "Finder Zen Classic.app"
 
 Source: "Finder Zen/"
+
+## Disclaimer
+
+This code is written in 2015-2016 and does not fully reflect my current ability, standard, or style of coding. 
 
 ## Credits
 
