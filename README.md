@@ -4,7 +4,9 @@ An open-source macOS game made with SpriteKit and Swift
 ## Downloading
 
 Executable (current): "Finder Zen.app"
+
 Executable (old): "Finder Zen Classic.app"
+
 Source: "Finder Zen/"
 
 ## Credits
